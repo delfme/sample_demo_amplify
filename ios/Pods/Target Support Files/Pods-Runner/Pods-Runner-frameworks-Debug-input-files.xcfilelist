@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh
+${BUILT_PRODUCTS_DIR}/amplify_auth_cognito/amplify_auth_cognito.framework
+${BUILT_PRODUCTS_DIR}/amplify_secure_storage/amplify_secure_storage.framework
+${BUILT_PRODUCTS_DIR}/device_info_plus/device_info_plus.framework
+${BUILT_PRODUCTS_DIR}/package_info_plus/package_info_plus.framework
+${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework
+${BUILT_PRODUCTS_DIR}/url_launcher_ios/url_launcher_ios.framework
