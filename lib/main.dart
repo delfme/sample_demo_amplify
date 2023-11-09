@@ -163,19 +163,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () async {
                   await uploadFileToAWS('video.mp4');
                 },
-                child: const Text("2. Upload 'video.mp4' file to AWS")),
+                child: const Text("3. Upload 'video.mp4' file to AWS")),
             ElevatedButton(
                 onPressed: () {
                   String imageAWSUrl = 'https://$bucket.s3.amazonaws.com/public/test_amplify/image.jpg';
                   downloadFileFromAWS(imageAWSUrl);
                 },
-                child: const Text("8. Download 'image.jpg' from AWS")),
+                child: const Text("4. Download 'image.jpg' from AWS")),
             ElevatedButton(
                 onPressed: () {
                   String videoAWSUrl = 'https://$bucket.s3.amazonaws.com/public/test_amplify/video.mp4';
                   downloadFileFromAWS(videoAWSUrl);
                   },
-                child: const Text("8. Download 'video.mp4' from AWS")),
+                child: const Text("5. Download 'video.mp4' from AWS")),
           ],
         ),
       ),
